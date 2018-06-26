@@ -1,19 +1,37 @@
 <?php
+// Routing
+if(!isset($_GET['q'])){
+$q = '';
+}else{
+$q = $_GET['q'];
+}
 
-echo 'test Phpok';
-?>
+switch ($q) {
+    case '':
+        $page = 'home';
+        break;
 
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>webDoc</title>
-</head>
-<body>
+    case 'chapter-1': 
+        $page = 'chapter-1';
+        break;
 
-<h1>setUp contenu</h1>
+    case 'chapter-2': 
+        $page = 'chapter-2';
+        break;
+
+    case 'chapter-3': 
+        $page = 'chapter-3';
+        break;
+
+    case 'chapter-4': 
+        $page = 'chapter-4';
+        break;
     
-</body>
-</html>
+    default:
+        $page = '404';
+        break;
+}
+
+ require 'views/pages/' .$page. '.php';
+
+
