@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles/css/reset.css"/>
     <link rel="stylesheet" type="text/css" href="styles/css/main.css"/>
     <link rel="stylesheet" type="text/css" href="styles/css/pace.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/css/fullPage.css"/>
 </head>
 <body>
-    <img class="logo_site"src="images/logo.png" alt="logo">
+  
