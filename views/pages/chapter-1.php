@@ -1,5 +1,14 @@
 <?php
 
-echo 'chapitre 1';
+include '../partials/header.php';
+
+?>
+
+
+
+
+<?php
+
+include '../partials/footer.php';
 
 ?>

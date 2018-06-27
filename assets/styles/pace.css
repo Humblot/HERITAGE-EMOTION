@@ -1,0 +1,35 @@
+.pace {
+    z-index: 2000;
+    position: fixed;
+    margin: auto;
+    top: 12px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 500px;
+    height: 50px;
+    overflow: hidden;
+  }
+  
+  .pace .pace-progress {
+  
+    display: block;
+    position: absolute;
+    right: 100%;
+    margin-right: -7px;
+    width: 93%;
+    top: 7px;
+    height: 10px;
+    font-size: 12px;
+    background: rgb(133, 18, 18);
+    color:rgb(133, 18, 18);;
+    
+    box-shadow: 120px 0 #20060d, 500px 0 #20060d;
+  }
+
+  
+
+  
+  .pace.pace-inactive {
+    display: none;
+  }
