@@ -4,6 +4,3 @@ paceOptions = {
     eventLag: false
 };
   
-
-
-  

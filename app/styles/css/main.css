@@ -1,0 +1,71 @@
+html, body{
+  width: 100%;
+  height: 100%;
+  background: black;
+}
+
+.logo_site{
+  position: fixed;
+  height: 5%;
+  left: 2rem;
+  top: 2rem;
+}
+
+/********
+** HOME***
+**********/
+
+.intro_home{
+  width: 100%;
+  height: 100%;
+  background-image: url('../../images/HOME.png');
+  overflow-y: hidden;
+  text-align: center;
+}
+
+.contener_intro{
+  transform: translatey(50%);
+  will-change: transform;
+}
+
+.title_home{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  width: 50%;
+  display: inline-block;
+  color: white;
+  margin-bottom: 2rem; 
+}
+
+.descript_home{
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 22px;
+  width: 60%;
+  display: inline-block;
+  color: white;
+  margin-bottom: 2rem;
+  line-height: 2rem;
+}
+
+.button_home{
+  background-color: #bd2222;
+  width: 10rem;
+  height: 2rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.button_home:hover {
+  background-color: #8e2525;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.button_home a{
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
