@@ -1,7 +1,7 @@
 html, body{
   width: 100%;
   height: 100%;
-  background: black;
+  background-color: black;
 }
 
 .logo_site{
@@ -73,10 +73,22 @@ html, body{
 ** Chapter 1***
 **********/
 
-.chapter1_intro{
-  width: 100%;
-  height: 100%;
+.intro_chapitre1{
+background-repeat: no-repeat;
   background-image: url('../../images/chapter1Bg.png');
-  overflow-y: hidden;
-  text-align: center;
+}
+
+.intro_chapitre1 .title{
+  width: 80%;
+  transform: translateX(25%) translateY(-70%);
+  will-change: transform;
+  filter: drop-shadow(0 0 0.55rem rgba(0, 0, 0, 0.363));
+}
+
+.intro_chapitre1 .title_1{
+  width: 10%;
+  position: absolute;
+  top: -14rem;
+  left: 3rem;
+  filter: drop-shadow(0 0 0.55rem rgba(0, 0, 0, 0.363));
 }

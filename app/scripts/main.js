@@ -72,4 +72,12 @@ $(document).ready(function() {
 		afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
 		onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
 	});
+
+
+	//parallax
+	var scene = document.getElementById('scene');
+	var parallaxInstance = new Parallax(scene, {
+	  relativeInput: true
+	});
+	parallaxInstance.friction(0.2, 0.2);
 });

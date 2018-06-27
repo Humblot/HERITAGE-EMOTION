@@ -6,10 +6,7 @@
  * Copyright (C) 2013 alvarotrigo.com - A project by Alvaro Trigo
  */
 
- .fullpage-wrapper{
-    z-index: -1;
- }
- 
+
  html.fp-enabled,
  .fp-enabled body {
      margin: 0;
