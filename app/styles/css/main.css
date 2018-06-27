@@ -79,7 +79,7 @@ background-repeat: no-repeat;
 }
 
 .intro_chapitre1 .title{
-  width: 80%;
+  width: 50%;
   transform: translateX(25%) translateY(-70%);
   will-change: transform;
   filter: drop-shadow(0 0 0.55rem rgba(0, 0, 0, 0.363));
@@ -92,3 +92,42 @@ background-repeat: no-repeat;
   left: 3rem;
   filter: drop-shadow(0 0 0.55rem rgba(0, 0, 0, 0.363));
 }
+
+.scroll{
+  position: absolute;
+  left: 48.5%;
+  bottom: 12%;
+  color: #F7F7F7;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  animation-fill-mode: both;
+  animation: fadeInDown 2.5s infinite;
+  text-transform: uppercase;
+}
+
+.separation{
+	clear: both;
+	position: absolute;
+  left: 50%;
+  bottom: 0;
+	height: 60px;
+  width : 3px;
+  border: none;
+  background: rgb(122, 16, 16);
+  animation-fill-mode: both;
+  animation: fadeInDown 2.5s infinite;
+	}
+
+ 
+
+@keyframes fadeInDown {
+  0% {
+     transform: translateY(-20px);
+  }
+  50% {
+     transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+ }
+} 

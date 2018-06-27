@@ -6,8 +6,10 @@
                 <div data-depth="0.2"> <img class="title_1" src="images/01.png" alt="title"></div>
                 <div data-depth="0.6"> <img class="title" src="images/cultural_heritage.png" alt="title"></div>
             </div>
-        
-       
+
+            <span class="scroll">scroll</span>
+            <hr class="separation" />
+          
         </div>
 
         <div class="section">
