@@ -32,6 +32,4 @@
 
   <?php
 
-  include 'footer.php'
-
-  ?>
+  include 'views/partialsfooter.php';
