@@ -38,3 +38,10 @@ p
   font-size: 15px;
   line-height: 35px;
 }
+
+.container .row .chapter.indicator
+{
+  background: #A83131;
+  font-size: 40px;
+  color: #A83131;
+}

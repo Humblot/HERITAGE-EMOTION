@@ -9,10 +9,10 @@
 
     <title>HERITAGE EMOTIONS</title>
 
-    <link href="assets/styles/reset.css" rel="stylesheet">
-    <link href="vendor/materialize.min.css" rel="stylesheet">
-    <link href="assets/styles/pace.css" rel="stylesheet">
-    <link href="assets/styles/style.css" rel="stylesheet">
+    <link href="assets/styles/reset.css" type="text/css" rel="stylesheet">
+    <link href="vendor/materialize.min.css" type="text/css" rel="stylesheet">
+    <link href="assets/styles/pace.css" type="text/css" rel="stylesheet">
+    <link href="assets/styles/style.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald:700|Quattrocento" rel="stylesheet">
 
   </head>
