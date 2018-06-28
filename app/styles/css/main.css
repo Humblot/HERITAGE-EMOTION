@@ -163,11 +163,13 @@ font-family: 'Quattrocento Sans', sans-serif;
   line-height: 2rem;
   transform: translatex(35%);
 }
+
+
 /******/
 /* MENU */
 /******/
 
-
+/*
 .btnMenu{
   position: fixed;
   right: 2rem;
@@ -175,12 +177,210 @@ font-family: 'Quattrocento Sans', sans-serif;
   width: 5%;
   z-index: 1;
 }
+
+*/
 .modal-box{
+  color: white;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.elem_1,.elem_2{
+  width: 49%;
+  float: left;
+  height: 100%;
+  opacity: 0.1;
+  transition: opacity 1s ease-in-out;
+}
+
+.elem_1:hover,.elem_2:hover{
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+
+.elem_1{
+  background-image: url('../../images/chapitre2_Bg.png');
+  background-size: cover;
+}
+
+.elem_2{
+  background-image: url('../../images/chapitre3_bg.png');
+  background-size: cover;
+}
+
+
+.link_1_menu{
+  position: absolute;
+  top: 30%;
+  left: 7%;
+  z-index: 1000000000;
+}
+.link_2_menu{
+  position: absolute;
+  top: 30%;
+  right: 20%;
+  z-index: 1000000000;
+}
+
+.link_1_menu span, .link_2_menu span{
+  margin-bottom: 4rem;
+}
+.modal-box .chiffre{
+  color: #7a0909;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 9px;
+  margin-bottom: 2rem;
+}
+.modal-box .descrip{
+  font-size: 14px;
+  color: #F7F7F7;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.modal-box .titre{
+  font-size: 24px;
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+}
+
+
+/*
+PLAYER
+*/
+
+.player 
+{
+  width: 100%;
+  height: 100%;
 
 }
 
-.overlay{
-  background-color: rgba(200,200,200,0.5);
+.seek-bar 
+{
+  width: 100vw;
+  height: 15px;
+  background: #424242;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  transform-origin: 0 1;
+  will-change: transform;
+  
+}
+.seek-bar:hover
+{
+  transform:scaleY(2);
+  
+} 
+
+.player .seek-bar .fill-bar 
+{
+  position: relative;
   width: 100%;
   height: 100%;
+  transform-origin: 0 0;
+  transform: scaleX(0);
+  will-change: transform;
+  background: #8e2525;
+  animation: backgroundFill 8s ease infinite;
+  background-size: 500% 500%;
+}
+
+.bottomBar
+{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  z-index: 10000;
+}
+
+/* BUTTON SLIDE TRANSITION */
+
+.centerMe {
+  position: absolute;
+  bottom: -70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.modal-box .button1 {
+  display: flex;
+  cursor: pointer;
+  border: 0;
+  background: transparent;
+  outline: 0;
+}
+.modal-box .button1 .icon {
+  position: relative;
+  background: #7a0909;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  transition: .2s color;
+  border-radius: 2px;
+}
+.modal-box .button1 .icon .fa {
+  width: 30px;
+  transition: .2s all;
+}
+.modal-box .button1 .text {
+  position: relative;
+  width: 0;
+  height: 30px;
+  overflow: hidden;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  background: #7a0909;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-weight: 300;
+  transition: .2s all;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.modal-box .button1 .text span {
+  width: 100%;
+  opacity: 0;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: .3s all;
+}
+.modal-box .button1:hover .icon {
+  border-radius: 0;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.modal-box .button1:hover .icon:after {
+  right: -2px;
+}
+.modal-box .button1:hover .text {
+  width: 120px;
+}
+.modal-box .button1:hover .text span {
+  opacity: 1;
+  top: 0;
+}
+
+@keyframes fadeInZoom {
+  0% {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
