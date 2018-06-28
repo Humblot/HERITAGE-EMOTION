@@ -82,6 +82,16 @@ $(document).ready(function() {
 	parallaxInstance.friction(0.2, 0.2);
 
 
+	//overlay en savoir +
+	//overlay
+	(function($) {
+		$(function() {
+		  $('.toggle-overlay').click(function() {
+			$('aside').toggleClass('open');
+		  });
+		});
+	  })(jQuery);
+
 
 	  
 });

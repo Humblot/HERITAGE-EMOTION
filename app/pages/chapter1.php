@@ -8,10 +8,22 @@
         <hr class="separation" />
     </div>
 
-    <div class="section section2_chapitre1">
+      <div class="section section2_chapitre1">   
         <p class="descript_chapter1">« Depuis des millénaires, l'évolution socio-culturel, s’est exprimé à travers la construction et la création que ce soit de temple, de théâtre, de monuments, de sculptures ou de tout autres oeuvres d’art.  »</p>
+        <button class="toggle-overlay">EN SAVOIR PLUS</button>
         <span class="scroll">scroll</span>
         <hr class="separation" />
+
+        <!-- overlay -->
+        <aside>
+            <p class="descript2_chapter1">« Ces chefs-d'oeuvres continuent de façonner notre identité en tant qu’être humain. Les biens et le patrimoine culturels fait appel à l'idée d'un héritage légué par les générations qui nous ont précédés, et que nous devons transmettre intact ou augmenté aux générations futures, ainsi qu'à la nécessité de constituer un patrimoine pour demain.  »</p>
+            <div class="outer-close toggle-overlay">
+            RETOUR
+            <a class="close">
+
+            </a>
+            </div>
+        </aside>
     </div>
 
     <div class="section">
@@ -29,6 +41,23 @@
 
     <div class="section">
     
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     </div>
 
     <div class="section">
@@ -41,26 +70,30 @@
  
                 <p class="titre">L’utilisation des biens culturels comme armes</p>
                 <button class='centerMe button1'>
-                    <div class='icon'>
+                 
+                <div class='icon'>
                         <i class='fa fa-plus'></i>
                     </div>
                     <div class='text'>
-                        <span>En savoir plus</span>
+                        <a href="chapter2">
+                            <span>En savoir plus</span>
+                        </a>
                     </div>
+                
                 </button>
             </div>
             <div class="link_2_menu">
             <p class="chiffre">03</p>
-               
                <p class="descrip">Péripéties et Denouement</p>
-
                <p class="titre">Conséquences et Actes</p>
                <button class='centerMe button1'>
                    <div class='icon'>
                        <i class='fa fa-plus'></i>
                    </div>
                    <div class='text'>
+                    <a href="chapter3">
                        <span>En savoir plus</span>
+                    </a>
                    </div>
                </button>
             </div>

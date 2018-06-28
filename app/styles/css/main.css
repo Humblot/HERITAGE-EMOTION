@@ -74,7 +74,7 @@ a
 }
 
 .elem_1{
-  background-image: url('../../images/chapitre2_Bg.png');
+  background-image: url('../../images/chapitre2_Bg3.jpg');
   background-size: cover;
 }
 
@@ -261,6 +261,8 @@ a
   line-height: 2rem;
 }
 
+
+
 .button_home{
   background-color: #bd2222;
   width: 10rem;
@@ -357,6 +359,63 @@ a
  }
 } 
 
+/**************************/
+/** en savoir plus overlay CHAPITRE 1*/
+/************************/
+aside {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-repeat: no-repeat;
+  background-image: url('../../images/bg_overlay_chapter1.png');
+  background-size: cover;
+	opacity: 0;
+	visibility: hidden;
+	transition: all .5s ease;
+	z-index: 200000;
+}
+.open {
+	opacity: 1;
+	visibility: visible;
+}
+
+.toggle-overlay {
+  width: 9.3rem;
+  height: 30px;
+  background: #8c0909;
+  color: #F7F7F7;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  left: 44%;
+  bottom: 30%;
+  position: absolute;
+  transition: all .5s ease;
+}
+
+.toggle-overlay:hover {
+  background: #530404;
+}
+
+.close {
+  position: fixed;
+  top: 44rem;
+  right: 43px;
+  z-index: 3;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+.outer-close {
+  position: absolute;
+  left: 44%;
+  bottom: 30%;
+  width: 9.3rem;
+  height: 30px;
+  padding-top: 7px;
+  padding-left: 4%;
+  cursor: pointer;
+}
 
 /* chapitre 1 describ */
 
@@ -378,6 +437,17 @@ font-family: 'Quattrocento Sans', sans-serif;
   transform: translatex(35%);
 }
 
+.descript2_chapter1{
+  font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 22px;
+    width: 60%;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    margin-bottom: 2rem;
+    line-height: 2rem;
+    transform: translatex(35%) translateY(15rem);
+  }
 
 
 /********************/

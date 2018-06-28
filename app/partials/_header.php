@@ -31,21 +31,21 @@
   <div class="menu">
     <ul class="listMenu">
       <li class="listChapters listChapter1">
-        <a href="../app/chapter1">
+        <a href="chapter1">
           <h5>01.</h5>
           <h4>Situation Initiale</h4>
           <h3>L'Héritage culturel</h3>
         </a>
       </li>
       <li class="listChapters listChapter2">
-        <a href="../app/chapter2">
+        <a href="chapter2">
           <h5>02.</h5>
           <h4>Élément perturbateur </h4>
           <h3>L’utilisation des biens culturels comme armes</h3>
         </a>
       </li>
       <li class="listChapters listChapter3">
-        <a href="../app/pages/chapter3">
+        <a href="chapter3">
           <h5>03.</h5>
           <h4>Péripéties et Dénouement</h4>
           <h3>Conséquences et Actes</h3>
