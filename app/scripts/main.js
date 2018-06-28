@@ -3,7 +3,7 @@ $(document).ready(function() {
 		//Navigation
 		menu: '#menu',
 		lockAnchors: false,
-		anchors:['firstPage'],
+		anchors:['step1','step2','step3','step4'],
 		navigation: true,
 		navigationPosition: 'right',
 		navigationTooltips: [],
@@ -86,6 +86,129 @@ $(document).ready(function() {
 	  
 });
 
+///////////////////////
+//		  MENU		 //
+///////////////////////
+
+const menu = document.querySelector('.menu')
+const menuButton = document.querySelector('.menuButton')
+const menuCross = document.querySelector('.menuCross')
+
+
+menuButton.addEventListener('mousedown',() =>
+{
+	menuCross.classList.toggle("switch")
+	menu.classList.toggle('switch')
+})
+
+const menuListChapter1 = document.querySelector('.listChapter1')
+const menuListChapter2 = document.querySelector('.listChapter2')
+const menuListChapter3 = document.querySelector('.listChapter3')
+
+const menuPreview1 = document.querySelector('.preview-1')
+const menuPreview2 = document.querySelector('.preview-2')
+const menuPreview3 = document.querySelector('.preview-3')
+
+const menuSelectionNumber1 = document.querySelector('.listChapter1 h5')
+const menuSelectionSubtitle1 = document.querySelector('.listChapter1 h4')
+const menuSelectionTitle1 = document.querySelector('.listChapter1 h3')
+
+const menuSelectionNumber2 = document.querySelector('.listChapter2 h5')
+const menuSelectionSubtitle2 = document.querySelector('.listChapter2 h4')
+const menuSelectionTitle2 = document.querySelector('.listChapter2 h3')
+
+const menuSelectionNumber3 = document.querySelector('.listChapter3 h5')
+const menuSelectionSubtitle3 = document.querySelector('.listChapter3 h4')
+const menuSelectionTitle3 = document.querySelector('.listChapter3 h3')
+
+menuListChapter1.addEventListener('mouseover',() =>
+{
+	menuPreview1.style.opacity = "1"
+	menuPreview2.style.opacity = "0"
+	menuPreview3.style.opacity = "0"
+
+	menuSelectionTitle1.style.borderBottom = "solid #8e2525 6px"
+	menuListChapter1.style.paddingLeft = "25px"
+
+	menuSelectionTitle2.style.borderBottom = "none"
+	menuListChapter2.style.paddingLeft = "0px"
+
+	menuSelectionTitle3.style.borderBottom = "none"
+	menuListChapter3.style.paddingLeft = "0px"
+
+	menuSelectionNumber1.style.fontSize = "15px"
+	menuSelectionSubtitle1.style.fontSize = "24px"
+	menuSelectionTitle1.style.fontSize = "33.6px"
+
+	menuSelectionNumber2.style.fontSize = "12.5px"
+	menuSelectionSubtitle2.style.fontSize = "20px"
+	menuSelectionTitle2.style.fontSize = "28px"
+
+	menuSelectionNumber3.style.fontSize = "12.5px"
+	menuSelectionSubtitle3.style.fontSize = "20px"
+	menuSelectionTitle3.style.fontSize = "28px"
+})
+menuListChapter2.addEventListener('mouseover',() =>
+{
+	menuPreview1.style.opacity = "0"
+	menuPreview2.style.opacity = "1"
+	menuPreview3.style.opacity = "0"
+
+	menuSelectionTitle1.style.borderBottom = "none"
+	menuListChapter1.style.paddingLeft = "0px"
+
+	menuSelectionTitle2.style.borderBottom = "solid #8e2525 6px"
+	menuListChapter2.style.paddingLeft = "25px"
+
+	menuSelectionTitle3.style.borderBottom = "none"
+	menuListChapter3.style.paddingLeft = "0px"
+
+	menuSelectionNumber1.style.fontSize = "12.5px"
+	menuSelectionSubtitle1.style.fontSize = "20px"
+	menuSelectionTitle1.style.fontSize = "28px"
+
+	menuSelectionNumber2.style.fontSize = "15px"
+	menuSelectionSubtitle2.style.fontSize = "24px"
+	menuSelectionTitle2.style.fontSize = "33.6px"
+
+	menuSelectionNumber3.style.fontSize = "12.5px"
+	menuSelectionSubtitle3.style.fontSize = "20px"
+	menuSelectionTitle3.style.fontSize = "28px"
+})
+menuListChapter3.addEventListener('mouseover',() =>
+{
+	menuPreview1.style.opacity = "0"
+	menuPreview2.style.opacity = "0"
+	menuPreview3.style.opacity = "1"
+
+	menuSelectionTitle1.style.borderBottom = "none"
+	menuListChapter1.style.paddingLeft = "0px"
+
+	menuSelectionTitle2.style.borderBottom = "none"
+	menuListChapter2.style.paddingLeft = "0px"
+
+	menuSelectionTitle3.style.borderBottom = "solid #8e2525 6px"
+	menuListChapter3.style.paddingLeft = "25px"
+
+	menuSelectionNumber1.style.fontSize = "12.5px"
+	menuSelectionSubtitle1.style.fontSize = "20px"
+	menuSelectionTitle1.style.fontSize = "28px"
+
+	menuSelectionNumber2.style.fontSize = "12.5px"
+	menuSelectionSubtitle2.style.fontSize = "20px"
+	menuSelectionTitle2.style.fontSize = "28px"
+
+	menuSelectionNumber3.style.fontSize = "15px"
+	menuSelectionSubtitle3.style.fontSize = "24px"
+	menuSelectionTitle3.style.fontSize = "33.6px"
+})
+
+
+
+//////////////////////
+//		 Player		//
+//////////////////////
+
 const $player = document.querySelector('.player')
 const $video = $player.querySelector('video')
 const $seekBar = $player.querySelector('.seek-bar')
@@ -122,7 +245,5 @@ $video.addEventListener('mousedown', (event) => {
        
     } else {
         $video.pause()
-
-        
     }
 })

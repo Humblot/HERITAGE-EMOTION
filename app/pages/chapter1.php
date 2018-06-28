@@ -1,7 +1,5 @@
 <div id="fullpage">
-    <div class="section intro_chapitre1">
-
-    <img class="logo_site" src="images/logo.png" alt="">        
+    <div class="section intro_chapitre1">    
         <div id="scene">
             <div data-depth="0.2"> <img class="title_1" src="images/01.png" alt="title"></div>
             <div data-depth="0.6"> <img class="title" src="images/cultural_heritage.png" alt="title"></div>
@@ -12,8 +10,6 @@
 
     <div class="section section2_chapitre1">
         <p class="descript_chapter1">« Depuis des millénaires, l'évolution socio-culturel, s’est exprimé à travers la construction et la création que ce soit de temple, de théâtre, de monuments, de sculptures ou de tout autres oeuvres d’art.  »</p>
-       
-
         <span class="scroll">scroll</span>
         <hr class="separation" />
     </div>
@@ -21,14 +17,14 @@
     <div class="section">
 
         <hr class="separation_2" />
-            <div class="player">
+        <div class="player">
             <video src="video/chapitre1_part3.mp4" width="100%" height="100%" autoplay></video>
             <div class="bottomBar">
                 <div class="seek-bar">
-                <div class="fill-bar"></div>
+                    <div class="fill-bar"></div>
                 </div>
             </div>
-            </div>
+        </div>
     </div>
 
     <div class="section">
