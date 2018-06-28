@@ -42,6 +42,7 @@ html, body{
   font-family: 'Quattrocento Sans', sans-serif;
   font-size: 22px;
   width: 60%;
+  text-align: center;
   display: inline-block;
   color: white;
   margin-bottom: 2rem;
@@ -74,7 +75,7 @@ html, body{
 **********/
 
 .intro_chapitre1{
-background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-image: url('../../images/chapter1Bg.png');
 }
 
@@ -118,6 +119,16 @@ background-repeat: no-repeat;
   animation: fadeInDown 2.5s infinite;
 	}
 
+  .separation_2{
+    clear: both;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    height: 60px;
+    width : 3px;
+    border: none;
+    background: rgb(122, 16, 16);
+    }
  
 
 @keyframes fadeInDown {
@@ -131,3 +142,45 @@ background-repeat: no-repeat;
     transform: translateY(-20px);
  }
 } 
+
+
+/* chapitre 1 describ */
+
+.section2_chapitre1{
+  background-repeat: no-repeat;
+  background-image: url('../../images/chapitre1_Bg2.png');
+  background-size: cover;
+}
+
+.descript_chapter1{
+font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 22px;
+  width: 60%;
+  text-align: center;
+  display: inline-block;
+  color: white;
+  margin-bottom: 2rem;
+  line-height: 2rem;
+  transform: translatex(35%);
+}
+/******/
+/* MENU */
+/******/
+
+
+.btnMenu{
+  position: fixed;
+  right: 2rem;
+  top: 38px;
+  width: 5%;
+  z-index: 1;
+}
+.modal-box{
+
+}
+
+.overlay{
+  background-color: rgba(200,200,200,0.5);
+  width: 100%;
+  height: 100%;
+}

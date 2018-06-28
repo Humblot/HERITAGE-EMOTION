@@ -80,4 +80,17 @@ $(document).ready(function() {
 	  relativeInput: true
 	});
 	parallaxInstance.friction(0.2, 0.2);
+
+
+	//menu
+	$('#open-modal').on('click',function(){
+		$('.modal-box').fadeIn();
+		$('.overlay').fadeIn();
+	  });
+	  
+	  $('.overlay, .close-modal').on('click',function(){
+		$('.modal-box').fadeOut();
+		$('.overlay').fadeOut();
+	  });
 });
+
