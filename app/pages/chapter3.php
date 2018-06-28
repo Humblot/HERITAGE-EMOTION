@@ -8,7 +8,8 @@
         <hr class="separation" />
     </div>
 
-      <div class="section section2_chapitre3">   
+      <div class="section section2_chapitre3">  
+      <hr class="separation_2" /> 
         <p class="descript2_chapter3">« Avec la montée en puissance des conflits armés, le patrimoine s’est retrouvé au cœur des enjeux politiques, idéologiques et identitaires. Ces aspects sont étroitement liés : la destruction des biens culturels vise à effacer le passé et la mémoire de minorités culturelles afin d’atteindre moralement l’adversaire on parle alors de “nettoyage culturel.»</p>
         <button class="toggle-overlay">EN SAVOIR PLUS</button>
         <span class="scroll">scroll</span>
@@ -21,16 +22,21 @@
 La destruction porte atteinte aux identités, fragilise la cohésion sociale et nourrit la spirale de haine et de vengeance. C’est contre ce cercle vicieux qu’il faut unir les efforts de la communauté internationale.  »</p>
             <div class="outer-close toggle-overlay">
             RETOUR
-            <a class="close">
-
-            </a>
+            <a class="close"></a>
             </div>
-
         </aside>
     </div>
 
-    <div class="section">
 
+    <div class="section audio1_chapitre3">
+            <hr class="separation_2" />
+            <p class="titre_slide"> Destruction de l’identité de la civilisation </p>
+            <audio class="audio_sound"src="audios/destruction.mp3" controls></audio>
+            <span class="scroll">scroll</span>
+        <hr class="separation" />
+        </div>
+    
+    <div class="section">
         <hr class="separation_2" />
         <div class="player">
             <video src="video/réactions-de-colere-et-d'indignation-se-multiplient.mp4" width="100%" height="100%" autoplay></video>
@@ -40,74 +46,69 @@ La destruction porte atteinte aux identités, fragilise la cohésion sociale et 
                 </div>
             </div>
         </div>
-
     </div>
 
     <div class="section des_chapitre3">
+    <hr class="separation_2" />
         <div id="scene1">
                 <div data-depth="0.2"> <img class="child" src="images/Child.png" alt="title"></div>
                 <div data-depth="0.2"> <img class="soldier" src="images/Soldier.png" alt="title"></div>
-                <div data-depth="0.4"><p class="descript_chapter3">«  Lors de conflits armés, l’UNESCO élabore des mesures d’urgence pour la protection du patrimoine culturel en mobilisant la coopération internationale. Dans ce cadre, des missions d'évaluation des dégâts sont envoyées sur place dès que possible afin d’établir dans plans d’action pour la sauvegarde et la reconstruction.»</p></div>
-              
+                <div data-depth="0.4"><p class="descript_chapter3">«  Lors de conflits armés, l’UNESCO élabore des mesures d’urgence pour la protection du patrimoine culturel en mobilisant la coopération internationale. Dans ce cadre, des missions d'évaluation des dégâts sont envoyées sur place dès que possible afin d’établir dans plans d’action pour la sauvegarde et la reconstruction.»</p></div>             
         </div>
-       
-
         <span class="scroll">scroll</span>
         <hr class="separation" />
     </div>
 
    <div class="section audio_chapitre3">
-      
+   <hr class="separation_2" />
         <div id="scene2">
             <div data-depth="0.4"> <img class="soldier_2" src="images/soldier_2.png" alt="title"></div>
-            <div data-depth="0.6">  <p class="titre_slide"> Que fait l’UNESCO pour protéger les biens culturels en péril ? </p></div>
         </div>
-       
+        <p class="titre_slide"> Que fait l’UNESCO pour protéger les biens culturels en péril ? </p>
+        <audio class="audio_sound"src="audios/applique.mp3" controls></audio>
 
         <span class="scroll">scroll</span>
         <hr class="separation" />
     </div>
 
 
-    <div class="section">
-       
-        <div class="modal-box">
-            <div class="link_1_menu">
-                <p class="chiffre">02</p>
-               
-                <p class="descrip">Élément perturbateur</p>
- 
-                <p class="titre">L’utilisation des biens culturels comme armes</p>
-                <button class='centerMe button1'>
-                 
-                <div class='icon'>
-                        <i class='fa fa-plus'></i>
-                    </div>
-                    <div class='text'>
-                        <a href="chapter3">
-                            <span>En savoir plus</span>
-                        </a>
-                    </div>
-                
-                </button>
+  
+
+      <div class="section section4_chapitre6">
+      <hr class="separation_2" />
+        <p class="descript2_chapter3">« Avec la montée en puissance des conflits armés, le patrimoine s’est retrouvé au cœur des enjeux politiques, idéologiques et identitaires. Ces aspects sont étroitement liés : la destruction des biens culturels vise à effacer le passé et la mémoire de minorités culturelles afin d’atteindre moralement l’adversaire on parle alors de “nettoyage culturel.»</p>
+        <button class="toggle-overlay">VOIR UN EXEMPLE</button>
+        <span class="scroll">scroll</span>
+        <hr class="separation" />
+
+        <!-- overlay -->
+        <aside class="aside_1">
+        <p class="titre_slide"> Réstitution du patrimoine Africains ?</p>
+            <p class="descrip_overlay_chap3">« Plusieurs pays, notamment africains, ont plaidé le vendredi 1er juin à Paris sous l’égide de l’Unesco pour la restitution à leurs pays d’origine de biens culturels pillés, et la levée rapide des obstacles à ce retour.« Ces biens ont une âme », a lancé le président béninois Patrice Talon, une des chevilles ouvrières dans le dossier, lors d’un vibrant plaidoyer pour que ces biens reviennent sur leurs terres de création, exposés parmi les leurs, là où tout est en accord avec leur essence et là où leur histoire révèle davantage leur grandeur que leur asservissement. »</p>
+            <div class="outer-close toggle-overlay">
+            RETOUR
+            <a class="close"></a>
             </div>
-            <div class="link_2_menu">
-            <p class="chiffre">03</p>
-               <p class="descrip">Péripéties et Denouement</p>
-               <p class="titre">Conséquences et Actes</p>
-               <button class='centerMe button1'>
-                   <div class='icon'>
-                       <i class='fa fa-plus'></i>
-                   </div>
-                   <div class='text'>
-                    <a href="chapter3">
-                       <span>En savoir plus</span>
-                    </a>
-                   </div>
-               </button>
-            </div>
-            <div class="element elem_1"></div>
-            <div class="element elem_2"></div>
-            </div>
+        </aside>
     </div>
+
+
+      <div class="section audio2_chapitre3">
+            <hr class="separation_2" />
+            <p class="titre_slide"> Que fait l’UNESCO pour protéger les biens culturels en péril ?  </p>
+            <audio class="audio_sound"src="audios/fournir.mp3" controls></audio>
+            <span class="scroll">scroll</span>
+        <hr class="separation" />
+      
+    <span class="scroll">scroll</span>
+        <hr class="separation" />
+    </div>
+
+    <div class="section section3_chapitre3">  
+      <hr class="separation_2" /> 
+      <p class="titre_slide"> Conclusion  </p>
+        <p class="descript2_chapter3">« Malgré les protocoles misent en place par les organismes internationaux, nous pouvons constater que leurs solutions sont partiellement favorable à la protection des biens culturels. En effet, le patrimoine culturel est toujours en danger et ce dernier reste la cible de dommage et de destruction en période de conflit armé. La destruction du patrimoine culturel n’affecte pas seulement les communautés, elle menace aussi la paix durable dans le monde entier. »</p>
+  
+    </div>
+
 </div>
