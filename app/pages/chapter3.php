@@ -9,14 +9,14 @@
     </div>
 
       <div class="section section2_chapitre3">   
-        <p class="descript_chapter3">« Avec la montée en puissance des conflits armés, le patrimoine s’est retrouvé au cœur des enjeux politiques, idéologiques et identitaires. Ces aspects sont étroitement liés : la destruction des biens culturels vise à effacer le passé et la mémoire de minorités culturelles afin d’atteindre moralement l’adversaire on parle alors de “nettoyage culturel.»</p>
+        <p class="descript2_chapter3">« Avec la montée en puissance des conflits armés, le patrimoine s’est retrouvé au cœur des enjeux politiques, idéologiques et identitaires. Ces aspects sont étroitement liés : la destruction des biens culturels vise à effacer le passé et la mémoire de minorités culturelles afin d’atteindre moralement l’adversaire on parle alors de “nettoyage culturel.»</p>
         <button class="toggle-overlay">EN SAVOIR PLUS</button>
         <span class="scroll">scroll</span>
         <hr class="separation" />
 
         <!-- overlay -->
         <aside class="aside">
-            <p class="descript2_chapter3">« C’est un phénomène ancien : depuis l’Antiquité, les biens culturels sont l’objet de toutes les convoitises et parfois de destructions volontaires et ciblées car ils incarnent souvent l’âme et la mémoire d’un peuple. 
+            <p class="descrip_overlay_chap3">« C’est un phénomène ancien : depuis l’Antiquité, les biens culturels sont l’objet de toutes les convoitises et parfois de destructions volontaires et ciblées car ils incarnent souvent l’âme et la mémoire d’un peuple. 
 
 La destruction porte atteinte aux identités, fragilise la cohésion sociale et nourrit la spirale de haine et de vengeance. C’est contre ce cercle vicieux qu’il faut unir les efforts de la communauté internationale.  »</p>
             <div class="outer-close toggle-overlay">
@@ -25,6 +25,7 @@ La destruction porte atteinte aux identités, fragilise la cohésion sociale et 
 
             </a>
             </div>
+
         </aside>
     </div>
 
@@ -39,31 +40,34 @@ La destruction porte atteinte aux identités, fragilise la cohésion sociale et 
                 </div>
             </div>
         </div>
+
     </div>
 
     <div class="section des_chapitre3">
-    <div id="scene1">
-            <div data-depth="0.2"> <img class="child" src="images/Child.png" alt="title"></div>
-            <div data-depth="0.2"> <img class="soldier" src="images/Soldier.png" alt="title"></div>
+        <div id="scene1">
+                <div data-depth="0.2"> <img class="child" src="images/Child.png" alt="title"></div>
+                <div data-depth="0.2"> <img class="soldier" src="images/Soldier.png" alt="title"></div>
+                <div data-depth="0.4"><p class="descript_chapter3">«  Lors de conflits armés, l’UNESCO élabore des mesures d’urgence pour la protection du patrimoine culturel en mobilisant la coopération internationale. Dans ce cadre, des missions d'évaluation des dégâts sont envoyées sur place dès que possible afin d’établir dans plans d’action pour la sauvegarde et la reconstruction.»</p></div>
+              
         </div>
+       
 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+        <span class="scroll">scroll</span>
+        <hr class="separation" />
     </div>
+
+   <div class="section audio_chapitre3">
+      
+        <div id="scene2">
+            <div data-depth="0.4"> <img class="soldier_2" src="images/soldier_2.png" alt="title"></div>
+            <div data-depth="0.6">  <p class="titre_slide"> Que fait l’UNESCO pour protéger les biens culturels en péril ? </p></div>
+        </div>
+       
+
+        <span class="scroll">scroll</span>
+        <hr class="separation" />
+    </div>
+
 
     <div class="section">
        

@@ -832,15 +832,21 @@ parralax
 */
 
 .soldier{
-  width: 56%;
+  width: 59%;
   height: 100%;
-  transform: translateX(100%)translateY(-30%);
+  transform: translateX(96%)translateY(-31%);
+}
+
+.soldier_2{
+  width: 80%;
+  height: 100%;
+  transform: translateX(-10%)translateY(23.5%);
 }
 
 .child{
   width: 22%;
   position: absolute;
-  top: -3rem;
+  top: 2rem;
   right: 14rem;
 }
 
@@ -849,8 +855,14 @@ parralax
   background-size: cover;
   background-image: url('../../images/desert.jpg');
 }
+
+.audio_chapitre3{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../../images/chapitre3_bg_section5.png');
+}
 /**************************/
-/** en savoir plus overlay CHAPITRE 1*/
+/** en savoir plus overlay CHAPITRE 3*/
 /************************/
 .aside {
 	position: absolute;
@@ -924,8 +936,20 @@ font-family: 'Quattrocento Sans', sans-serif;
   color: white;
   margin-bottom: 2rem;
   line-height: 2rem;
-  transform: translatex(35%);
+  transform: translatex(35%) translateY(-100%);
 }
+
+.titre_slide{
+  font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 22px;
+    width: 60%;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    margin-bottom: 2rem;
+    line-height: 2rem;
+    transform: translatex(35%) translateY(-100%);
+  }
 
 .descript2_chapter3{
   font-family: 'Quattrocento Sans', sans-serif;
@@ -936,5 +960,16 @@ font-family: 'Quattrocento Sans', sans-serif;
     color: white;
     margin-bottom: 2rem;
     line-height: 2rem;
-    transform: translatex(35%) translateY(15rem);
+    transform: translatex(35%) translateY(-1rem);
   }
+.descrip_overlay_chap3{
+  font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 22px;
+    width: 60%;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    margin-bottom: 2rem;
+    line-height: 2rem;
+    transform: translatex(35%) translateY(15rem);
+}
