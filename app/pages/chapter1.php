@@ -9,6 +9,7 @@
     </div>
 
       <div class="section section2_chapitre1">   
+      <hr class="separation_2" /> 
         <p class="descript_chapter1">« Depuis des millénaires, l'évolution socio-culturel, s’est exprimé à travers la construction et la création que ce soit de temple, de théâtre, de monuments, de sculptures ou de tout autres oeuvres d’art.  »</p>
         <button class="toggle-overlay">EN SAVOIR PLUS</button>
         <span class="scroll">scroll</span>

@@ -59,7 +59,7 @@ $(document).ready(function() {
 
 		//Custom selectors
 		sectionSelector: '.section',
-		slideSelector: '.slide',
+		slideSelector: '.section',
 
 		lazyLoading: true,
 
@@ -81,32 +81,36 @@ $(document).ready(function() {
 	});
 	parallaxInstance.friction(0.2, 0.2);
 
-	//parallax chap 3
-	var scene = document.getElementById('scene1');
-	var parallaxInstance = new Parallax(scene, {
-	relativeInput: true
-	});
-	parallaxInstance.friction(0.2, 0.1);
+	if (window.location.pathname.indexOf('chapter3') !== -1) {
+		//parallax chap 3
+		var scene = document.getElementById('scene1');
+		var parallaxInstance = new Parallax(scene, {
+		relativeInput: true
+		});
+		parallaxInstance.friction(0.2, 0.1);
 
-	//parallax chap 3
-	var scene = document.getElementById('scene2');
-	var parallaxInstance = new Parallax(scene, {
-	relativeInput: true
-	});
-	parallaxInstance.friction(0.2, 0);
+		//parallax chap 3
+		var scene = document.getElementById('scene2');
+		var parallaxInstance = new Parallax(scene, {
+		relativeInput: true
+		});
+		parallaxInstance.friction(0.2, 0);
+	}
 
 	//overlay en savoir +
 	//overlay
 	(function($) {
 		$(function() {
+			console.log("lala")
 		  $('.toggle-overlay').click(function() {
-			$('aside').toggleClass('open');
+				console.log("coco");
+				$('aside').toggleClass('open');
 		  });
 		});
 	  })(jQuery);
 
 
-	  
+
 });
 
 ///////////////////////
@@ -240,15 +244,15 @@ const $fillBar = $seekBar.querySelector('.fill-bar')
 // ----------------seekBarTIME----------------------------------
 
 $seekBar.addEventListener('mousedown', (event) => {
-    // prevent default event 
+    // prevent default event
     event.preventDefault()
 
-    // update current video Time 
+    // update current video Time
     const ratio = (event.clientX) / $seekBar.offsetWidth
     const videoTime = ratio * $video.duration
 
     $video.currentTime = videoTime
-      
+
 
 })
 
@@ -256,7 +260,7 @@ $seekBar.addEventListener('mousedown', (event) => {
 $video.addEventListener('timeupdate', () => {
     const ratio = $video.currentTime / $video.duration
     $fillBar.style.transform = `scaleX(${ratio})`;
-    
+
 })
 
 $video.addEventListener('mousedown', (event) => {
@@ -264,8 +268,8 @@ $video.addEventListener('mousedown', (event) => {
     event.preventDefault()
     if ($video.paused) {
         $video.play()
-        
-       
+
+
     } else {
         $video.pause()
     }
