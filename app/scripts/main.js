@@ -81,6 +81,12 @@ $(document).ready(function() {
 	});
 	parallaxInstance.friction(0.2, 0.2);
 
+	//parallax chap 3
+	var scene = document.getElementById('scene1');
+	var parallaxInstance = new Parallax(scene, {
+	relativeInput: true
+	});
+	parallaxInstance.friction(0.2, 0.1);
 
 	//overlay en savoir +
 	//overlay

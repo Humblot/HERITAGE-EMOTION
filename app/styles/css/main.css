@@ -447,8 +447,9 @@ font-family: 'Quattrocento Sans', sans-serif;
     margin-bottom: 2rem;
     line-height: 2rem;
     transform: translatex(35%) translateY(15rem);
-  }
+}
 
+  
 
 /********************/
 /*     chapter 2    */
@@ -751,3 +752,189 @@ font-family: 'Quattrocento Sans', sans-serif;
   transform: rotate(45deg) translate(-8px, -8px);
 }
 
+
+/*******/
+/**Chapitre 3*/
+/*******/
+
+
+.intro_chapitre3{
+  background-repeat: no-repeat;
+  background-image: url('../../images/chapitre3_Bg1.png');
+}
+
+.intro_chapitre3 .title{
+  width: 50%;
+  transform: translateX(25%) translateY(-70%);
+  will-change: transform;
+  filter: drop-shadow(0 0 0.55rem rgba(0, 0, 0, 0.363));
+}
+
+.intro_chapitre3 .title_3{
+  width: 10%;
+  position: absolute;
+  top: -14rem;
+  left: 3rem;
+  filter: drop-shadow(0 0 0.55rem rgba(0, 0, 0, 0.363));
+}
+
+.scroll{
+  position: absolute;
+  left: 48.5%;
+  bottom: 12%;
+  color: #F7F7F7;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  animation-fill-mode: both;
+  animation: fadeInDown 2.5s infinite;
+  text-transform: uppercase;
+}
+
+.separation{
+	clear: both;
+	position: absolute;
+  left: 50%;
+  bottom: 0;
+	height: 60px;
+  width : 3px;
+  border: none;
+  background: rgb(122, 16, 16);
+  animation-fill-mode: both;
+  animation: fadeInDown 2.5s infinite;
+	}
+
+  .separation_2{
+    clear: both;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    height: 60px;
+    width : 3px;
+    border: none;
+    background: rgb(122, 16, 16);
+    }
+ 
+
+@keyframes fadeInDown {
+  0% {
+     transform: translateY(-20px);
+  }
+  50% {
+     transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+ }
+} 
+
+/****
+parralax
+*/
+
+.soldier{
+  width: 56%;
+  height: 100%;
+  transform: translateX(100%)translateY(-30%);
+}
+
+.child{
+  width: 22%;
+  position: absolute;
+  top: -3rem;
+  right: 14rem;
+}
+
+.des_chapitre3{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../../images/desert.jpg');
+}
+/**************************/
+/** en savoir plus overlay CHAPITRE 1*/
+/************************/
+.aside {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-repeat: no-repeat;
+  background-image: url('../../images/bg_overlay_chapter3.png');
+  background-size: cover;
+	opacity: 0;
+	visibility: hidden;
+	transition: all .5s ease;
+	z-index: 200000;
+}
+.open {
+	opacity: 1;
+	visibility: visible;
+}
+
+.toggle-overlay {
+  width: 9.3rem;
+  height: 30px;
+  background: #8c0909;
+  color: #F7F7F7;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  left: 44%;
+  bottom: 30%;
+  position: absolute;
+  transition: all .5s ease;
+}
+
+.toggle-overlay:hover {
+  background: #530404;
+}
+
+.close {
+  position: fixed;
+  top: 44rem;
+  right: 43px;
+  z-index: 3;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+.outer-close {
+  position: absolute;
+  left: 44%;
+  bottom: 30%;
+  width: 9.3rem;
+  height: 30px;
+  padding-top: 7px;
+  padding-left: 4%;
+  cursor: pointer;
+}
+
+/* chapitre 3 describ */
+
+.section2_chapitre3{
+  background-repeat: no-repeat;
+  background-image: url('../../images/chapitre3_Bg2.png');
+  background-size: cover;
+}
+
+.descript_chapter3{
+font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 22px;
+  width: 60%;
+  text-align: center;
+  display: inline-block;
+  color: white;
+  margin-bottom: 2rem;
+  line-height: 2rem;
+  transform: translatex(35%);
+}
+
+.descript2_chapter3{
+  font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 22px;
+    width: 60%;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    margin-bottom: 2rem;
+    line-height: 2rem;
+    transform: translatex(35%) translateY(15rem);
+  }
