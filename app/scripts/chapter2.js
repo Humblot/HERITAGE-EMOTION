@@ -1,3 +1,8 @@
+$(".single-item").slick({
+	dots: true
+
+});
+
 const $menuMap = document.querySelector('.selectMap')
 const $select_o = document.querySelector('.otages')
 const $select_v = document.querySelector('.victimes')
@@ -62,3 +67,33 @@ $select_a.addEventListener('mousedown',()=>
 	$select_a.style.background = "#A83131"
 	$select_a.style.color = "#D8D8D8"
 })
+
+
+
+const closeSlider = document.querySelector('.closeSlider')
+const slider = document.querySelector('.sliderContainer')
+closeSlider.addEventListener('mousedown', ()=> 
+{
+	slider.style.display='none'
+
+})
+
+const indicator1 = document.querySelector('.indicator1')
+const indicator2 = document.querySelector('.indicator2')
+const indicator3 = document.querySelector('.indicator3')
+indicator1.addEventListener('mousedown', ()=> 
+{
+	slider.style.display='inherit'
+
+})
+indicator2.addEventListener('mousedown', ()=> 
+{
+	slider.style.display='inherit'
+
+})
+indicator3.addEventListener('mousedown', ()=> 
+{
+	slider.style.display='inherit'
+
+})
+

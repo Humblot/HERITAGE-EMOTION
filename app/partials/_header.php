@@ -10,7 +10,8 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald:700|Quattrocento+Sans:400" rel="stylesheet">
     <link rel="stylesheet" href="styles/css/reset.css"/>
     <link rel="stylesheet" type="text/css" href="styles/css/main.css"/>
-    <link rel="stylesheet" type="text/css" href="styles/css/pace.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" type="text/css" href="styles/css/fullPage.css"/>
 </head>

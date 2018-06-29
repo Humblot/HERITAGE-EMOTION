@@ -830,6 +830,7 @@ font-family: 'Quattrocento Sans', sans-serif;
   
  
 }
+
 .chapitre2_3 h3
 {
   text-align: center;
@@ -920,6 +921,52 @@ font-family: 'Quattrocento Sans', sans-serif;
 .indicator3 .text{
   color: white;
   font-family: 'Oswald', sans-serif;
+}
+
+
+.sliderContainer {
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  padding: 40px;
+  width: 100%;
+  height: 100%;
+  color: #F7F7F7;
+  text-align: center;
+  background: rgb(22, 20, 20);
+}
+.sliderContainer h4
+{
+  font-family: 'Oswald', sans-serif;
+  color: #A83131;
+  margin-bottom: 30px;
+  font-size: 34px;
+}
+
+
+.sliderContainer p
+{
+  margin: 0 auto;
+  font-family: 'Oswald', sans-serif;
+  width: 40%;
+  font-weight: 400;
+}
+
+.slick-slide {
+  margin-top: 200px;
+  color: #ffffff;
+  
+  height: 70%;
+}
+
+.ak
+{
+height: 300px;
+}
+
+.ak img
+{
+  width: 100%;
 }
 
 

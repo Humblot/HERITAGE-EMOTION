@@ -76,6 +76,24 @@
         <div class="text">VICTIME<br>COLLATÉRALE</div>
       </div>
     </div>  
+    <div class='sliderContainer'>
+    <div class='single-item'>
+      <div>
+        <h4>Un nouvel otage</h4>
+        <p>La destruction délibérée du patrimoine est un crime de guerre, elle est devenue une tactique de guerre pour mettre à mal les sociétés sur le long terme. Elle Permet d’exercer une pression politique mais aussi de contribuer au financement de la guerre en revandant les biens.</p>
+      </div>
+      <div class"ak">
+        <h4>La constitution d’une nouvelle arme de guerre</h4>
+        <img src="images/ak.png" alt="ak">
+        <p>La destruction délibérée du patrimoine est un crime de guerre, elle est devenue une tactique de guerre pour mettre à mal les sociétés sur le long terme. Elle Permet d’exercer une pression politique mais aussi de contribuer au financement de la guerre en revandant les biens.</p>
+      </div>
+      <div>
+        <h4>Victime collatérale</h4>
+        <p>La dégradation et la perte du patrimoine  nous conduit vers la perte de la culture et de la connaissance. Les monuments qui sont considérés comme des victimes collatérales sont des biens qui ne sont pas visés. </p>
+      </div>
+  </div>
+  <button class="button closeSlider"><p>close</p></button>
+</div>
   </div>
 
   <div class="section chapitre2_4">
@@ -251,9 +269,17 @@
   </div>
 </div>
 </div>
+<script>
+  $(document).ready(function(){
+	$('.slider single-item').slick({
+	});
+  });
+</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/jquery.fullpage.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script src="scripts/main.js"></script>
     <script src="scripts/chapter2.js"></script>
 
