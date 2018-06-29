@@ -29,4 +29,3 @@ switch ($q) {
 
     include 'partials/_header.php';
     require 'pages/' . $page . '.php';
-    include 'partials/_footer.php';
