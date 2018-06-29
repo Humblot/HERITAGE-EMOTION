@@ -452,7 +452,71 @@ font-family: 'Quattrocento Sans', sans-serif;
 }
 
   
+.sidebar1 {
+	width: 100%;
+	position: fixed;
+	background: rgba(255,255,255,0.85);
+	height: 100%;
+	
+}
 
+.navChp1 {
+	padding: 0;
+	margin: 0;
+	list-style-type:none;
+  background:white;
+  width:20%;
+  text-align: center;
+  margin: 0 auto;
+  transform: translatey(50%);
+}
+
+.navChp1 li{
+  height: 3rem;
+  color:#A83131;
+}
+
+.navChp1 li:hover{
+  background:#A83131;
+  color:#FFFF;
+}
+
+.navChp1.nav a, .navChp1.nav a:visited {
+	display: block;
+	text-decoration: none;
+}
+
+.navChp1 a, .navChp1 a:visited {
+	display: block;
+	text-decoration: none;
+	color:#A83131;
+}
+
+
+.navChp1 li:hover, .navChp1 li:focus {
+	display: block;
+	text-decoration: none;
+}
+
+.sidebar1.about {
+  background-color: blue;
+}
+
+.sidebar1.contact {
+  background-color: yellow;
+}
+
+.sidebar1.barcelona {
+  background-color: pink;
+}
+
+.sidebar1.sumi {
+  background-color: orange;
+}
+
+.sidebar1.london {
+  background-color: black;
+}
 /********************/
 /*     chapter 2    */
 /********************/
@@ -992,6 +1056,19 @@ font-family: 'Quattrocento Sans', sans-serif;
   left: 22%;
   line-height: 2rem;
   }
+
+  .titre_slide2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    width: 60%;
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 28%;
+    left: 22%;
+    line-height: 2rem;
+    }
 
 .descript2_chapter3{
   font-family: 'Quattrocento Sans', sans-serif;

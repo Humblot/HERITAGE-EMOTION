@@ -65,6 +65,7 @@ La destruction porte atteinte aux identités, fragilise la cohésion sociale et 
             <div data-depth="0.4"> <img class="soldier_2" src="images/soldier_2.png" alt="title"></div>
         </div>
         <p class="titre_slide"> Que fait l’UNESCO pour protéger les biens culturels en péril ? </p>
+        <p class="titre_slide2">  Appliquer ses outils normatifs  </p>
         <audio class="audio_sound"src="audios/applique.mp3" controls></audio>
 
         <span class="scroll">scroll</span>
@@ -72,11 +73,13 @@ La destruction porte atteinte aux identités, fragilise la cohésion sociale et 
     </div>
 
 
-  
+  Favoriser le retour et la restitution des objets culturels.
 
       <div class="section section4_chapitre6">
       <hr class="separation_2" />
-        <p class="descript2_chapter3">« Avec la montée en puissance des conflits armés, le patrimoine s’est retrouvé au cœur des enjeux politiques, idéologiques et identitaires. Ces aspects sont étroitement liés : la destruction des biens culturels vise à effacer le passé et la mémoire de minorités culturelles afin d’atteindre moralement l’adversaire on parle alors de “nettoyage culturel.»</p>
+      <p class="titre_slide"> Que fait l’UNESCO pour protéger les biens culturels en péril ? </p>
+      <p class="titre_slide2">  Favoriser le retour et la restitution des objets culturels. </p>
+        <p class="descript2_chapter3">« Le Comité intergouvernemental de la Convention de 1970 facilite la coopération bilatérale entre États membres sur le retour et la restitution des objets. L’UNESCO coopère également avec des partenaires tels qu’INTERPOL et l'ONUDC (Office des Nations Unies contre la drogue et le crime) pour lutter contre le trafic illicite.»</p>
         <button class="toggle-overlay">VOIR UN EXEMPLE</button>
         <span class="scroll">scroll</span>
         <hr class="separation" />
@@ -96,6 +99,8 @@ La destruction porte atteinte aux identités, fragilise la cohésion sociale et 
       <div class="section audio2_chapitre3">
             <hr class="separation_2" />
             <p class="titre_slide"> Que fait l’UNESCO pour protéger les biens culturels en péril ?  </p>
+            <p class="titre_slide2"> Fournir une aide d’urgence </p>
+          
             <audio class="audio_sound"src="audios/fournir.mp3" controls></audio>
             <span class="scroll">scroll</span>
         <hr class="separation" />
